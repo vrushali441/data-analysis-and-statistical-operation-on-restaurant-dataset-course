@@ -1,0 +1,18 @@
+title: data analysis and statistical  operation on Restaurant dataset
+description: >-
+  perform various data analysis and statistical  operation on Restaurant
+  dataset.
+template:
+  repo: data-analysis-and-statistical-operation-on-restaurant-dataset-template
+  name: data-analysis-and-statistical-operation-on-restaurant-dataset
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
